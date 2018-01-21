@@ -45,7 +45,13 @@ To enable Rails integration, require this file during application startup:
 
 ```ruby
 # In config/application.rb
-require "opencensus/trace/integrations/rails"
+require "open
+
+
+
+
+
+/trace/integrations/rails"
 ```
 
 ### Getting started with other Rack-based frameworks
@@ -130,7 +136,7 @@ config.opencensus.trace.default_sampler =
 config.opencensus.trace.default_max_attributes = 16
 ```
 
-You can configure a variety of core OpenCensuys options, including:
+You can configure a variety of core OpenCensus options, including:
 
 * Sampling, which controls how often a request is traced.
 * Exporting, which controls how trace information is reported.
